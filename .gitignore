@@ -1,0 +1,14 @@
+# Terraform local directories
+.terraform/
+
+# Terraform state files (contain secrets)
+terraform.tfstate
+terraform.tfstate.backup
+
+# tfvars files (if you store secrets inside)
+*.tfvars
+*.auto.tfvars
+
+# Shell scripts containing passwords or keys (optional)
+*.sh
+terraform.tfvars
